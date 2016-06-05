@@ -51,5 +51,5 @@ var diceRoll = function () {
 
 document
     .getElementById('roll-dice')
-    .addEventListener("click", () => { diceRoll() });
+    .addEventListener("click", diceRoll);
   
